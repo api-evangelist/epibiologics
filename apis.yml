@@ -1,8 +1,25 @@
 aid: epibiologics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/epibiologics.png
 name: EpiBiologics
-description: 'EpiBiologics is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'EpiBiologics is a clinical-stage biotechnology company based in San Mateo, California,
+  developing bispecific antibodies for directed extracellular protein degradation. Its proprietary
+  EpiTAC platform leverages an atlas of 270+ degradation-inducing cell-surface receptors to build
+  tissue-selective therapies that degrade disease-causing proteins while sparing healthy tissue,
+  targeting cancer, autoimmune, and other serious diseases. The company dosed its first patient with
+  EPI-326 (an EGFR-driven solid-tumor bispecific) in a Phase 1 study in April 2026 and closed a $107M
+  Series B round in January 2026. Backed by GV, EpiBiologics was added to the API Evangelist network as
+  a portfolio-lead profile; it publishes a corporate website but no public developer/API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/epibiologics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Therapeutics
+- Drug Discovery
+- Protein Degradation
+- Antibodies
+- Oncology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.epibiologics.com
+- type: About
+  url: https://www.epibiologics.com/about-us
+- type: Support
+  url: https://www.epibiologics.com/contact
+- type: DomainSecurity
+  url: security/epibiologics-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
